@@ -24,6 +24,7 @@ class Tomatoes {
       xPos = random(5, 490);
       myScore1.lives = myScore1.lives - 1;
     }
+  
   }
   void collision() {
     distance1 = dist(xPos, yPos+radius/2, myPlayer1.xPos, myPlayer1.yPos);

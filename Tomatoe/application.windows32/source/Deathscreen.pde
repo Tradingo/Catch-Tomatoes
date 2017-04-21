@@ -1,7 +1,7 @@
 class dScreen {
   float Gameover;
-
-
+  
+  
   void display() {
     if (myScore1.lives <= 0) {
       background(0);
